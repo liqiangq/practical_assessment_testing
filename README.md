@@ -74,6 +74,22 @@ uvicorn app.main:app --reload --port 3000
 
 The service starts on `http://localhost:3000`.
 
+## Demo
+
+Start the application:
+
+```bash
+.venv/bin/python -m uvicorn app.main:app --reload --port 3000
+```
+
+Open the Swagger API docs in your browser:
+
+```text
+http://localhost:3000/docs
+```
+
+From the Swagger page, expand `POST /tokenize` or `POST /detokenize`, click `Try it out`, enter a JSON array, and execute the request.
+
 ## Run Tests
 
 ```bash
