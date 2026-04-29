@@ -77,7 +77,7 @@ The service starts on `http://localhost:3000`.
 ## Run Tests
 
 ```bash
-pytest
+.venv/bin/python -m pytest -vv
 ```
 
 ## API
